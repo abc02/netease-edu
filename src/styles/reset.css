@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+*:after{
+    box-sizing: border-box;
+}
+*:before{
+    box-sizing: border-box;
+}
+html,body,div,p,ul,ol,li,h1,h2,h3,h4,h5,h6{
+    padding:0;
+    margin:0;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
