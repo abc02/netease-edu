@@ -5,83 +5,107 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/src/styles/normailze.css">
   <link rel="stylesheet" href="/src/styles/reset.css">
   <link rel="stylesheet" href="/src/styles/common.css">
+  <link rel="stylesheet" href="/src/styles/index.css">
   <title>EDU 网教育产品部</title>
 </head>
 
 <body>
   <div class="tip">
-    <div class="wrapper">
+    <div class="wrapper relative">
       <span>网易云课堂微专业，帮助你掌握专业技能，令你求职或加薪多一份独特优势！  <a href="#" class="link-button">立即查看</a></span>
-      <a href="#" class="close-button"></a>
+      <a href="#" class="close-button">不再提醒</a>
     </div>
   </div>
   <div id="header">
-    <div class="wrapper">
-      <h1><span>EDU</span> 网易教育产品部</h1>
-      <a href="#">+ 关注</a>
-      <span>粉丝 45</span>
-      <ul class="nav-menu">
-        <li><a href="#">网易公开课</a></li>
-        <li><a href="#">云课堂</a></li>
-        <li><a href="#">中国大学MOOC</a></li>
-        <li><a href="#">图</a></li>
-      </ul>
+    <div class="nav">
+        <div class="wrapper">
+            <ul class="nav-menu clearfix">
+              <li>
+                  <h1 class="title"><strong>EDU</strong> 网易教育产品部</h1>
+              </li>
+              <li>
+                  <a href="#" class="attention-button">关注</a>
+                  <span>粉丝 45</span>
+              </li>
+              <li>
+                  <a href="#" class="nav-button">网易公开课</a>
+                  <a href="#" class="nav-button">云课堂</a>
+                  <a href="#" class="nav-button">中国大学MOOC</a>
+                  <a href="#" class="nav-button">图</a>
+              </li>
+            </ul>
+          </div>
     </div>
-  </div>
-  <div id="banner">
+   
+    <div class="banner">
+        <ul>
+          <li><img src="/src/images/banner1.jpg" alt="banner1"></li>
+          <li><img src="/src/images/banner2.jpg" alt="banner2"></li>
+          <li><img src="/src/images/banner3.jpg" alt="banner3"></li>
+        </ul>
+        <div class="bullet">
+            <span class="action"></span>
+            <span></span>
+            <span></span>
+        </div>
+       
+    </div>
 
+    <div class="product-enter">
+        <div class="wrapper">
+          <ul class="product-wrapper clearfix">
+            <li class="product-item">
+              <img src="/src/images/product/product-img-1.png" alt="网易公开课" class="item-image">
+              <div class="product-info">
+                <h2>网易公开课</h2>
+                <p>推出国内外名校公开课，涉及广泛的学科，名校老师认真讲解深度剖析，网易视频公开课频道搭建起强有力的网络视频教学平台。</p>
+                <a href="#" class="link-button">了解更多</a>
+              </div>
+            </li>
+            <li class="product-item">
+              <img src="/src/images/product/product-img-2.png" alt="云课堂" class="item-image">
+              <div class="product-info">
+                <h2>云课堂</h2>
+                <p>网易旗下大型在线学习平台，该平台面向学习者提供海量免费、优质课程,创新的个性化学习体验，自由开放的交流互动环境。</p>
+                <a href="#" class="link-button">了解更多</a>
+                <a href="#" class="link-button">了解更多</a>
+              </div>
+            </li>
+            <li class="product-item">
+              <img src="/src/images/product/product-img-3.png" alt="中国大学MOOC" class="item-image">
+              <div class="product-info">
+                <h2>中国大学MOOC</h2>
+                <p>是爱课程网携手云课堂打造的在线学习平台，每一个有提升愿望的人,都可以在这里学习中国最好的大学课程，学完还能获得认证证书。</p>
+                <a href="#" class="link-button">了解更多</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
   </div>
-  <div class="product-enter">
-    <div class="wrapper">
-      <ul class="product-wrapper">
-        <li class="product-item">
-          <img src="" alt="网易公开课" class="item-image">
-          <div>
-            <h2>网易公开课</h2>
-            <p>推出国内外名校公开课，涉及广泛的学科，名校老师认真讲解深度剖析，网易视频公开课频道搭建起强有力的网络视频教学平台。</p>
-            <a href="#" class="link-button">了解更多</a>
-          </div>
-        </li>
-        <li class="product-item">
-          <img src="" alt="云课堂" class="item-image">
-          <div>
-            <h2>云课堂</h2>
-            <p>网易旗下大型在线学习平台，该平台面向学习者提供海量免费、优质课程,创新的个性化学习体验，自由开放的交流互动环境。</p>
-            <a href="#" class="link-button">了解更多</a>
-            <a href="#" class="link-button">了解更多</a>
-          </div>
-        </li>
-        <li class="product-item">
-          <img src="" alt="中国大学MOOC" class="item-image">
-          <div>
-            <h2>中国大学MOOC</h2>
-            <p>是爱课程网携手云课堂打造的在线学习平台，每一个有提升愿望的人,都可以在这里学习中国最好的大学课程，学完还能获得认证证书。</p>
-            <a href="#" class="link-button">了解更多</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
+  
+
   <div id="work-image">
-    <ul class="work-wrapper">
-      <li><img src="" alt=""></li>
-      <li><img src="" alt=""></li>
-      <li><img src="" alt=""></li>
-      <li><img src="" alt=""></li>
-      <li><img src="" alt=""></li>
+    <ul class="work-wrapper clearfix">
+      <li><img src="/src/images/work/work-1.png" alt=""></li>
+      <li><img src="/src/images/work/work-2.png" alt=""></li>
+      <li><img src="/src/images/work/work-3.png" alt=""></li>
+      <li><img src="/src/images/work/work-4.png" alt=""></li>
+      <li><img src="/src/images/work/work-5.png" alt=""></li>
     </ul>
   </div>
   <div id="main">
-    <div class="wrapper">
+    <div class="wrapper clearfix">
       <div class="course-wrapper">
         <div class="coures-head">
-          <a href="#">产品设计</a>
-          <a href="#">编程语言</a>
+          <a href="#" class="coures-tab-button action">产品设计</a>
+          <a href="#" class="coures-tab-button">编程语言</a>
         </div>
         <div class="coures-body">
-          <ul class="course">
+          <ul class="course clearfix">
             <li class="course-item">
               <div><img src="" alt=""></div>
               <p>混音全揭秘 舞曲实战篇 揭秘音乐揭秘.. </p>
@@ -133,16 +157,16 @@
             </li>
           </ul>
         </div>
-        <div class="course-pages">
-          <a href=""></a>
-          <ul class="pages">
+        <div class="course-pages clearfix">
+          <ul class="pages clearfix">
             <li><a href="#">1</a></li>
             <li><a href="#">2</a></li>
             <li><a href="#">3</a></li>
             <li><a href="#">4</a></li>
             <li><a href="#">5</a></li>
           </ul>
-          <a href=""></a>
+          <a href="" class="prev-button"><</a>
+          <a href="" class="next-button">></a>
         </div>
       </div>
       <div class="sidebar">
