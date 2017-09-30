@@ -49,7 +49,10 @@
     width:100%;
     height: inherit;
 }
-#header .banner li>img{
+#header .banner a{
+    height: inherit;
+}
+#header .banner li img{
     vertical-align: top;
     width:100%;
     height: inherit;
@@ -111,12 +114,13 @@
 
  #main .course-wrapper{
     float:left;
-    width: 980px;
-    margin-right:23px;
+    width: 960px;
+    margin-right:20px;
+    margin-bottom: 120px;
  }
  #main .sidebar{
     float:left;
-    width:203px;
+    width:223px;
 }
 
 
@@ -141,36 +145,187 @@
  #main .coures-body{
      width:100%;
      margin-left: -20px;
+     margin-bottom:31px;
  }
 
  #main .coures-body .course-item{
-    border: 1px solid;
     float:left;
-    width:225px;
+    width:220px;
     height: 228px;
     margin-left:20px;
     margin-bottom: 20px;
+    background:white;
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+ }
+ #main .coures-body .course-picture{
+    /* width:223px; */
+    height: 124px;
+    margin: 1px;
+    margin-bottom:10px;
+    background: coral;
+ }
+ #main .coures-body p{
+     margin-left:5px;
+     font-size: 12px;
+     line-height: 12px;
+     margin-bottom:10px;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+     overflow: hidden;
+ }
+ #main .coures-body .course-des{
+     color: #333333;
+    
+ }
+ #main .coures-body .course-tag{
+    color: #999999;
+ }
+ #main .coures-body .course-count{
+     overflow: visible;
+     height: 18px;
+     line-height: 18px;
+ }
+ #main .coures-body .course-count span{
+    border: 1px solid #999999;
+    border-radius: 2px;
+    padding: 2px 3px;
+    color: #999999;
  }
 
+ #main .coures-body .course-pirce{
+    color:#ff3f00;
+    font-weight: 600;
+ }
 
  /* main course-pages */
-#main .course-pages{
-    position: relative;
-}
-#main .course-pages .pages {
+#main .course-pages .pages-wrapper {
     float:right;
+    margin-right: 100px;
 }
 #main .course-pages .pages >li{
     float: left;
+    
 }
 #main .course-pages .pages a{
     color: #666666;
+    margin-left:10px;
     padding: 4px 6px;
 }
 #main .course-pages .pages a:hover{
     color: white;
     background: #9dd8b1;
 }
+#main .course-pages .pages-button{
+    position: absolute;
+    line-height: 20px;
+    text-align: center;
+    width:30px;
+    height: 20px;
+    display: block;
+    background: #9dd8b1;
+    color:white;
+}
 #main .course-pages .prev-button{
-    
+    top:-1px;
+    left: -30px;
+}
+#main .course-pages .next-button{
+    top:-1px;
+    right: -40px;
+}
+
+
+/* main sidebar */
+#main .organization{
+    margin-bottom:21px;
+    background: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3)
+}
+#main .ranking{
+    background: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3)
+}
+
+#main .sidebar h4{
+    padding: 20px 0 20px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+
+#main .sidebar .organization-enter p{
+    margin-bottom: 10px;
+}
+#main .sidebar  .organization .organization-enter{
+    padding: 20px 22px;
+}
+
+#main .sidebar .organization-enter a{
+    display: block;
+    width:180px;
+    height: 110px;
+    background: coral;
+}
+
+#main .ranking .ranking-lists{
+    overflow: hidden;
+    margin:20px;
+}
+#main .ranking .ranking-item{
+    margin-bottom: 20px; 
+    position: relative;   
+}
+#main .ranking .ranking-item .ranking-image{
+    position: absolute;
+    display: block;
+    width:50px;
+    height:50px;
+    background: coral;
+}
+#main .ranking .ranking-enter{
+    margin-left:62px;
+}
+#main .ranking .ranking-item .ranking-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #333333;
+}
+#main .ranking .ranking-item .ranking-count{
+    color: #bbbbbb;
+}
+/* footer layout */
+
+#footer{
+    color: #666666;
+    background: #2c3339;
+}
+
+#footer .copyright-inner{
+    float: left;
+    margin-left:50px; 
+    margin-right:150px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#footer .copyright-inner h2{
+    color:#39a030;
+    margin-bottom:28px;
+}
+#footer .copyright-inner p{
+    margin-bottom: 13px;
+}
+#footer .help-nav{
+    float:left;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right:90px;
+}
+#footer .help-nav h5{
+    margin-bottom: 15px;
+}
+#footer .help-nav li{
+    margin-bottom: 15px;
 }

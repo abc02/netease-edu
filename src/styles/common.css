@@ -2,6 +2,7 @@ html{
     font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
     font-size: 16px;
 }
+
 .wrapper{
     width:1206px;
     max-width:1206px;
@@ -17,7 +18,25 @@ html{
     clear:both;
 }
 
-
+.icon-close{
+    font-size: 12px !important;
+    line-height: 12px;
+    margin-right:6px;
+}
+.icon-seach{
+    font-size: 18px;
+    font-weight: 600;
+}
+.icon-seach:hover{
+    color:#39a030;
+}
+.icon-man{
+    font-size:12px;
+}
+.icon-weibo{
+    margin-left: 6px;
+    font-size: 18px;
+}
 .link-button{
     font-size: 12px;
     line-height: 12px;
@@ -26,7 +45,7 @@ html{
 }
 
 .link-button:hover,.link-button:focus{
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
 .link-button:after{
     content: ' > '
@@ -37,9 +56,6 @@ html{
     line-height:12px;
     margin-top:13px;
     margin-bottom:11px;
-}
-.close-button:before{
-    content: ' X '
 }
 .attention-button{
     position:relative;
@@ -67,7 +83,14 @@ html{
 .nav-button:hover{
     color:#39a030;
 }
-
+.help-nav-button{
+    color: #666666;
+    font-size: 16px;
+    line-height: 16px;
+}
+.help-nav-button:hover{
+    text-decoration: underline;
+}
 h1,h2{
     color:#333333;
     font-weight: normal;
