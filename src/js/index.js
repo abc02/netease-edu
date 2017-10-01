@@ -10,26 +10,7 @@ window.onload = function () {
     isTipNone()
     
 
-
     Utils.addEvent(CLOSE_BUTTON_DOM, 'click', handleCloseButton)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     Utils.ajax({
@@ -63,6 +44,7 @@ window.onload = function () {
         if (!isTip()) {
             console.log(document.cookie)
             document.cookie = "tip=true;"
+            isTipNone()
         }
     }
 
